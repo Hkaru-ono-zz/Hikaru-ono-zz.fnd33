@@ -1,0 +1,30 @@
+body {
+  display: flex; /*要素を横並びにする*/
+  flex-direction: column; /*要素を上から順に配置*/
+  align-items: center;/*上下中央*/
+  justify-content: center;/*左右中央*/
+  height: 100vh;
+  margin: 0;
+  background-color:plum
+}
+
+.green-square {
+  width: 200px;
+  height: 200px;
+  background-color: green;
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  justify-content: center;
+}
+
+.blue-square {
+  width: 300px;
+  min-height: 100px; /* 高さが設定されていない場合の最小高さ */
+  background-color: blue;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap; /* ワニが青四角に表示 */
+}
