@@ -5,12 +5,13 @@ body {
   justify-content: center;/*左右中央*/
   height: 100vh;
   margin: 0;
+  gap: 10px;
   background-color:plum
 }
 
 .green-square {
-  width: 200px;
-  height: 200px;
+  width: 400px;
+  height: 100px;
   background-color: green;
   display: flex;
   flex-direction: column; 
@@ -19,7 +20,7 @@ body {
 }
 
 .blue-square {
-  width: 300px;
+  width: 400px;
   min-height: 100px; /* 高さが設定されていない場合の最小高さ */
   background-color: blue;
   margin-top: 20px;
@@ -27,4 +28,16 @@ body {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap; /* ワニが青四角に表示 */
+}
+
+#animalCount {
+  font-size: 28px;
+}
+
+#alligatorButton,#catButton,#robotButton,#muscleButton {
+  font-size: 58px;
+}
+
+.large-icon {
+  font-size: 48px;
 }
